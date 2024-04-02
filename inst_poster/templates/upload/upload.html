@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-3">
+    <form method="POST" action="{% url 'poster' %}">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="inst_account">Выберите instagram аккаунт</label>
+            <select class="form-control" id="inst_account" name="inst_account">
+                <option disabled selected>Аккаунт:</option>
+                {% for account in accounts %}
+                <option>{{ account.login_inst }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="inst_photo_category">Добавить фото из категории:</label>
+            <select class="form-control" id="inst_photo_category" name="inst_photo_category">
+                <option disabled selected>Категория:</option>
+                {% for category in categories %}
+                <option>{{ category.title }}</option>
+                {% endfor %}
+            </select>
+        </div>
+<div class="form-group">
+    <label for="inst_photos">Количество постов</label>
+    <input type="text" class="form-control" id="inst_photos" name="inst_photos" placeholder="Например: 10">
+</div>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="inst_caption" name="inst_caption">
+            <label class="form-check-label" for="inst_caption">Добавлять подписи к постам</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Запустить iAP</button>
+    </form>
+</div>
+{% endblock %}

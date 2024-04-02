@@ -1,0 +1,22 @@
+2024-02-11 19:57:19,954 - INFO - Account - ripa93n: Don't need to verify email #1
+2024-02-11 19:57:30,195 - INFO - Account - ripa93n: Don't need to verify email #2
+2024-02-11 19:57:30,207 - ERROR - Account - ripa93n: Don't need to allow all cookies
+2024-02-11 19:57:40,417 - INFO - Account - ripa93n: Trying to publish post 1/2
+2024-02-11 19:57:54,502 - INFO - Account - ripa93n: Don't need to login once again
+2024-02-11 19:59:01,052 - INFO - Account - ripa93n: Post shared
+2024-02-11 19:59:11,895 - INFO - Account - ripa93n: Post link: https://www.instagram.com/p/C3OEQ5OoFCq/
+2024-02-11 19:59:11,901 - INFO - Account - ripa93n: Trying to publish post 2/2
+2024-02-13 10:32:39,046 - INFO - Старый архив с прокси /Volumes/NO NAME/python/instagram_autoposting/instagram_autoposter/scripts/proxy.zip успешно удален.
+2024-02-13 10:32:39,048 - INFO - Данные от прокси успешно изменены. IP:78.46.100.233:43459. Login: askkaptur. Password: TvkHj4gRKs
+2024-02-13 10:32:39,053 - INFO - Новый архив с прокси успешно создан.
+2024-02-13 10:34:47,376 - INFO - Account - tisa8b: Trying to publish post 1/2
+2024-02-13 10:39:11,454 - INFO - Account - baccar116: Trying to publish post 1/2
+2024-02-13 11:06:23,881 - INFO - Account - rupon8n: Trying to publish post 1/2
+2024-02-13 11:09:08,430 - INFO - Account - rupon8n: Trying to publish post 1/2
+2024-02-13 11:12:27,698 - INFO - Account - rupon8n: Trying to publish post 1/2
+2024-02-13 11:17:50,922 - INFO - Account - rupon8n: Trying to publish post 1/2
+2024-02-13 11:22:12,126 - INFO - Account - rupon8n: Trying to publish post 1/2
+2024-02-13 11:23:46,772 - INFO - Account - rupon8n: Post shared
+2024-02-13 11:24:08,995 - INFO - Account - rupon8n: Post link: https://www.instagram.com/p/C3SS5CZMqbh/
+2024-02-13 11:24:09,001 - INFO - Account - rupon8n: Trying to publish post 2/2
+2024-02-13 11:31:44,758 - INFO - Account - ripa93n: Trying to publish post 1/2
